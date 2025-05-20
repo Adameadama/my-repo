@@ -1,0 +1,18 @@
+2025-05-14 23:28:48.710 [info] 
+
+
+
+
+2025-05-14 23:28:48.841 [info] Extension host agent started.
+2025-05-14 23:28:52.591 [info] [127.0.0.1][309237c6][ManagementConnection] New connection established.
+2025-05-14 23:28:56.183 [info] ComputeTargetPlatform: linux-x64
+2025-05-14 23:28:57.052 [info] [127.0.0.1][7bd0343e][ExtensionHostConnection] New connection established.
+2025-05-14 23:29:01.653 [error] resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2025-05-14 23:29:01.698 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2025-05-14 23:29:02.004 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2025-05-14 23:29:02.024 [info] [127.0.0.1][7bd0343e][ExtensionHostConnection] <10164> Launched Extension Host Process.
+2025-05-14 23:29:11.444 [warning] No ptyHost heartbeat after 6 seconds
+2025-05-14 23:29:41.179 [info] ComputeTargetPlatform: linux-x64
+2025-05-14 23:31:04.961 [warning] No ptyHost heartbeat after 6 seconds
+2025-05-14 23:45:19.657 [info] [127.0.0.1][309237c6][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-05-14 23:45:21.182 [warning] No ptyHost heartbeat after 6 seconds

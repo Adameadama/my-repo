@@ -1,0 +1,9 @@
+{
+  "name": "typescript-project",
+  "version": "1.0.0",
+  "main": "dist/learning_typescript.js",
+  "scripts": {
+    "start": "node dist/learning_typescript.js"
+  }
+}
+

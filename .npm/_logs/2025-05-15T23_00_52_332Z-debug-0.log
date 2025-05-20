@@ -1,0 +1,28 @@
+0 verbose cli /home/khanyu/.nvm/versions/node/v22.15.0/bin/node /home/khanyu/.nvm/versions/node/v22.15.0/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@11.3.0
+2 info using node@v22.15.0
+3 silly config load:file:/home/khanyu/.nvm/versions/node/v22.15.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/khanyu/bank-app-frontend/.npmrc
+5 silly config load:file:/home/khanyu/.npmrc
+6 silly config load:file:/home/khanyu/.nvm/versions/node/v22.15.0/etc/npmrc
+7 verbose title npm exec tailwindcss init -p
+8 verbose argv "exec" "--" "tailwindcss" "init" "-p"
+9 verbose logfile logs-max:10 dir:/home/khanyu/.npm/_logs/2025-05-15T23_00_52_332Z-
+10 verbose logfile /home/khanyu/.npm/_logs/2025-05-15T23_00_52_332Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly packumentCache heap:1013710848 maxSize:253427712 maxEntrySize:126713856
+14 verbose stack Error: could not determine executable to run
+14 verbose stack     at getBinFromManifest (/home/khanyu/.nvm/versions/node/v22.15.0/lib/node_modules/npm/node_modules/libnpmexec/lib/get-bin-from-manifest.js:17:23)
+14 verbose stack     at exec (/home/khanyu/.nvm/versions/node/v22.15.0/lib/node_modules/npm/node_modules/libnpmexec/lib/index.js:205:15)
+14 verbose stack     at async Npm.exec (/home/khanyu/.nvm/versions/node/v22.15.0/lib/node_modules/npm/lib/npm.js:208:9)
+14 verbose stack     at async module.exports (/home/khanyu/.nvm/versions/node/v22.15.0/lib/node_modules/npm/lib/cli/entry.js:67:5)
+15 verbose pkgid tailwindcss@4.1.7
+16 error could not determine executable to run
+17 verbose cwd /home/khanyu/bank-app-frontend
+18 verbose os Linux 5.15.167.4-microsoft-standard-WSL2
+19 verbose node v22.15.0
+20 verbose npm  v11.3.0
+21 verbose exit 1
+22 verbose code 1
+23 error A complete log of this run can be found in: /home/khanyu/.npm/_logs/2025-05-15T23_00_52_332Z-debug-0.log

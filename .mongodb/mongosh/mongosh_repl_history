@@ -1,0 +1,15 @@
+  .catch((err) => console.error('MongoDB connection error:', err));
+  .then(() => console.log('Connected to MongoDB'))
+import mongoose from 'mongoose';
+MONGO_URI=mongodb://localhost:27017/mydatabase
+db.testCollection.find()
+db.testCollection.insertOne({ name: "MongoTest", type: "Check" })
+use mydatabase
+exit
+docker run -d -p 27017:27017 --name mongodb -v mongodb_data:/data/db mongo:4.4
+docker rm -f mongodb
+const uri = "mongodb://localhost:27017/mydatabase";
+db.testCollection.find()
+db.testCollection.insertOne({ name: "ChatGPT", type: "AI" })
+use mydatabase
+show dbs

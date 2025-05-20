@@ -1,0 +1,46 @@
+2025-05-14 23:30:11.646 [info] Can't use the Electron fetcher in this environment.
+2025-05-14 23:30:11.646 [info] Using the Node fetch fetcher.
+2025-05-14 23:30:11.646 [info] Initializing Git extension service.
+2025-05-14 23:30:11.646 [info] Successfully activated the vscode.git extension.
+2025-05-14 23:30:11.646 [info] Enablement state of the vscode.git extension: true.
+2025-05-14 23:30:11.646 [info] Successfully registered Git commit message provider.
+2025-05-14 23:30:22.477 [info] Logged in as Adame77
+2025-05-14 23:30:48.032 [error] TypeError: fetch failed
+    at node:internal/deps/undici/undici:13502:13
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at qP._fetch (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:792:53087)
+    at d6.fetchCopilotToken (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:481:44288)
+    at d6.authFromGitHubToken (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:481:42290)
+    at d6._auth (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:481:48399)
+  ConnectTimeoutError: Connect Timeout Error (attempted address: api.github.com:443, timeout: 10000ms)
+      at onConnectTimeout (/home/khanyu/.vscode-server/bin/91fa95bccb027ece6a968589bb1d662fa9c8e170/node_modules/undici/lib/core/connect.js:237:24)
+      at Immediate._onImmediate (/home/khanyu/.vscode-server/bin/91fa95bccb027ece6a968589bb1d662fa9c8e170/node_modules/undici/lib/core/connect.js:206:11)
+      at processImmediate (node:internal/timers:483:21): Failed to get copilot token
+2025-05-14 23:30:48.033 [error] GitHub Copilot could not connect to server. Extension activation failed: "fetch failed"
+2025-05-14 23:30:48.033 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-05-14 23:30:48.033 [error] TypeError: fetch failed
+    at node:internal/deps/undici/undici:13502:13
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at qP._fetch (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:792:53087)
+    at d6.fetchCopilotToken (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:481:44288)
+    at d6.authFromGitHubToken (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:481:42290)
+    at d6._auth (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:481:48399)
+  ConnectTimeoutError: Connect Timeout Error (attempted address: api.github.com:443, timeout: 10000ms)
+      at onConnectTimeout (/home/khanyu/.vscode-server/bin/91fa95bccb027ece6a968589bb1d662fa9c8e170/node_modules/undici/lib/core/connect.js:237:24)
+      at Immediate._onImmediate (/home/khanyu/.vscode-server/bin/91fa95bccb027ece6a968589bb1d662fa9c8e170/node_modules/undici/lib/core/connect.js:206:11)
+      at processImmediate (node:internal/timers:483:21)
+2025-05-14 23:30:48.033 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-05-14 23:30:48.033 [error] TypeError: fetch failed
+    at node:internal/deps/undici/undici:13502:13
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at qP._fetch (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:792:53087)
+    at d6.fetchCopilotToken (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:481:44288)
+    at d6.authFromGitHubToken (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:481:42290)
+    at d6._auth (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:481:48399)
+  ConnectTimeoutError: Connect Timeout Error (attempted address: api.github.com:443, timeout: 10000ms)
+      at onConnectTimeout (/home/khanyu/.vscode-server/bin/91fa95bccb027ece6a968589bb1d662fa9c8e170/node_modules/undici/lib/core/connect.js:237:24)
+      at Immediate._onImmediate (/home/khanyu/.vscode-server/bin/91fa95bccb027ece6a968589bb1d662fa9c8e170/node_modules/undici/lib/core/connect.js:206:11)
+      at processImmediate (node:internal/timers:483:21)
+2025-05-14 23:30:48.034 [info] activationBlocker from 'languageModelAccess' took for 25292ms
+2025-05-14 23:38:09.545 [info] TypeScript server plugin activated.
+2025-05-14 23:38:09.574 [info] Registered TypeScript context provider with Copilot inline completions.

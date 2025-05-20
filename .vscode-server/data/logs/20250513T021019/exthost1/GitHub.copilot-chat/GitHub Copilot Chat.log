@@ -1,0 +1,169 @@
+2025-05-13 02:32:15.440 [info] Can't use the Electron fetcher in this environment.
+2025-05-13 02:32:15.441 [info] Using the Node fetch fetcher.
+2025-05-13 02:32:15.441 [info] Initializing Git extension service.
+2025-05-13 02:32:15.441 [info] Successfully activated the vscode.git extension.
+2025-05-13 02:32:15.441 [info] Enablement state of the vscode.git extension: true.
+2025-05-13 02:32:15.441 [info] Successfully registered Git commit message provider.
+2025-05-13 02:32:32.495 [info] TypeScript server plugin activated.
+2025-05-13 02:32:32.506 [info] Registered TypeScript context provider with Copilot inline completions.
+2025-05-13 02:32:34.403 [info] Logged in as Adame77
+2025-05-13 02:32:37.577 [info] Got Copilot token for Adame77
+2025-05-13 02:32:38.818 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-13 02:32:38.818 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-05-13 02:32:38.866 [info] Registering default platform agent...
+2025-05-13 02:32:43.201 [info] Fetched model metadata in 5586ms f07b62ce-ee0c-4a7f-bd93-6785b7fcfd53
+2025-05-13 02:32:43.213 [info] activationBlocker from 'languageModelAccess' took for 8620ms
+2025-05-13 03:05:07.467 [info] Logged in as Adame77
+2025-05-13 03:05:10.765 [info] Got Copilot token for Adame77
+2025-05-13 03:05:11.466 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-13 03:05:15.281 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-05-13 03:21:44.540 [error] TypeError: fetch failed
+    at node:internal/deps/undici/undici:13502:13
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at qP._fetch (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:792:53087)
+    at NA._fetchModels (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:2339:4077)
+    at NA.getAllChatModels (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:2339:1950)
+    at cU.getAllChatEndpoints (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:2339:12409)
+    at Object.n [as task] (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:478:871)
+    at mp._processQueue (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:471:15854)
+  Error: getaddrinfo EAI_AGAIN api.individual.githubcopilot.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26): Failed to fetch models (a54afbd4-80b6-404a-b0e8-51d8ee4b2d64)
+2025-05-13 03:37:58.055 [info] Logged in as Adame77
+2025-05-13 03:38:03.035 [info] Got Copilot token for Adame77
+2025-05-13 03:38:04.211 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-13 03:38:06.639 [info] Fetched model metadata in 3530ms 3296638a-9008-4bbe-a415-9523ef41beb9
+2025-05-14 14:25:48.092 [info] Logged in as Adame77
+2025-05-14 14:25:58.521 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-05-14 14:25:58.521 [error] TypeError: fetch failed
+    at node:internal/deps/undici/undici:13502:13
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at qP._fetch (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:792:53087)
+    at d6.fetchCopilotToken (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:481:44288)
+    at d6.authFromGitHubToken (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:481:42290)
+    at d6._auth (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:481:48399)
+    at d6._authShowWarnings (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:481:48579)
+    at d6.getCopilotToken (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:481:47813)
+    at b5.getCopilotToken (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:423:3583)
+    at YL._getAuthSession (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:478:3643)
+    at Object.n [as task] (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:478:730)
+    at mp._processQueue (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:471:15854)
+  Error: getaddrinfo EAI_AGAIN api.github.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+2025-05-14 14:43:47.974 [info] Logged in as Adame77
+2025-05-14 14:43:58.454 [info] copilot token chat_enabled: undefined, sku: 
+2025-05-14 14:43:58.457 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-05-14 14:43:58.457 [error] TypeError: fetch failed
+    at node:internal/deps/undici/undici:13502:13
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at qP._fetch (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:792:53087)
+    at d6.fetchCopilotToken (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:481:44288)
+    at d6.authFromGitHubToken (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:481:42290)
+    at d6._auth (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:481:48399)
+  Error: getaddrinfo EAI_AGAIN api.github.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+2025-05-14 14:55:47.994 [info] Logged in as Adame77
+2025-05-14 14:55:58.322 [error] GitHub Copilot could not connect to server. Extension activation failed: "fetch failed"
+2025-05-14 14:55:58.322 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-05-14 14:55:58.322 [error] TypeError: fetch failed
+    at node:internal/deps/undici/undici:13502:13
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at qP._fetch (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:792:53087)
+    at d6.fetchCopilotToken (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:481:44288)
+    at d6.authFromGitHubToken (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:481:42290)
+    at d6._auth (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:481:48399)
+  Error: getaddrinfo EAI_AGAIN api.github.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+2025-05-14 14:55:58.323 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-05-14 14:55:58.323 [error] TypeError: fetch failed
+    at node:internal/deps/undici/undici:13502:13
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at qP._fetch (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:792:53087)
+    at d6.fetchCopilotToken (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:481:44288)
+    at d6.authFromGitHubToken (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:481:42290)
+    at d6._auth (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:481:48399)
+  Error: getaddrinfo EAI_AGAIN api.github.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+2025-05-14 19:24:09.768 [info] Logged in as Adame77
+2025-05-14 19:24:21.560 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-05-14 19:24:21.577 [error] TypeError: fetch failed
+    at node:internal/deps/undici/undici:13502:13
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at qP._fetch (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:792:53087)
+    at d6.fetchCopilotToken (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:481:44288)
+    at d6.authFromGitHubToken (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:481:42290)
+    at d6._auth (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:481:48399)
+    at d6._authShowWarnings (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:481:48579)
+    at d6.getCopilotToken (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:481:47813)
+    at b5.getCopilotToken (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:423:3583)
+    at YL._getAuthSession (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:478:3643)
+    at Object.n [as task] (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:478:730)
+    at mp._processQueue (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:471:15854)
+  Error: getaddrinfo EAI_AGAIN api.github.com
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+2025-05-14 19:39:23.680 [info] Logged in as Adame77
+2025-05-14 19:39:34.847 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-05-14 19:39:34.851 [error] TypeError: fetch failed
+    at node:internal/deps/undici/undici:13502:13
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at qP._fetch (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:792:53087)
+    at d6.fetchCopilotToken (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:481:44288)
+    at d6.authFromGitHubToken (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:481:42290)
+    at d6._auth (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:481:48399)
+    at d6._authShowWarnings (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:481:48579)
+    at d6.getCopilotToken (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:481:47813)
+    at b5.getCopilotToken (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:423:3583)
+    at YL._getAuthSession (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:478:3643)
+    at Object.n [as task] (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:478:730)
+    at mp._processQueue (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:471:15854)
+  ConnectTimeoutError: Connect Timeout Error (attempted address: api.github.com:443, timeout: 10000ms)
+      at onConnectTimeout (/home/khanyu/.vscode-server/bin/19e0f9e681ecb8e5c09d8784acaa601316ca4571/node_modules/undici/lib/core/connect.js:237:24)
+      at Immediate._onImmediate (/home/khanyu/.vscode-server/bin/19e0f9e681ecb8e5c09d8784acaa601316ca4571/node_modules/undici/lib/core/connect.js:206:11)
+      at processImmediate (node:internal/timers:483:21)
+2025-05-14 19:54:49.831 [info] Logged in as Adame77
+2025-05-14 19:55:00.795 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-05-14 19:55:00.802 [error] TypeError: fetch failed
+    at node:internal/deps/undici/undici:13502:13
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at qP._fetch (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:792:53087)
+    at d6.fetchCopilotToken (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:481:44288)
+    at d6.authFromGitHubToken (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:481:42290)
+    at d6._auth (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:481:48399)
+    at d6._authShowWarnings (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:481:48579)
+    at d6.getCopilotToken (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:481:47813)
+    at b5.getCopilotToken (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:423:3583)
+    at YL._getAuthSession (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:478:3643)
+    at Object.n [as task] (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:478:730)
+    at mp._processQueue (/home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0/dist/extension.js:471:15854)
+  ConnectTimeoutError: Connect Timeout Error (attempted address: api.github.com:443, timeout: 10000ms)
+      at onConnectTimeout (/home/khanyu/.vscode-server/bin/19e0f9e681ecb8e5c09d8784acaa601316ca4571/node_modules/undici/lib/core/connect.js:237:24)
+      at Immediate._onImmediate (/home/khanyu/.vscode-server/bin/19e0f9e681ecb8e5c09d8784acaa601316ca4571/node_modules/undici/lib/core/connect.js:206:11)
+      at processImmediate (node:internal/timers:483:21)
+2025-05-14 20:11:06.658 [info] Logged in as Adame77
+2025-05-14 20:11:10.124 [info] Got Copilot token for Adame77
+2025-05-14 20:11:18.420 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-14 20:11:18.421 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-05-14 20:43:37.026 [info] Logged in as Adame77
+2025-05-14 20:43:42.977 [info] Got Copilot token for Adame77
+2025-05-14 20:43:44.403 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-14 20:43:50.055 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-05-14 21:15:50.164 [info] Logged in as Adame77
+2025-05-14 21:15:54.314 [info] Got Copilot token for Adame77
+2025-05-14 21:15:54.887 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-14 21:15:57.237 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-05-14 21:46:24.070 [info] Logged in as Adame77
+2025-05-14 21:46:32.464 [info] Got Copilot token for Adame77
+2025-05-14 21:46:33.733 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-14 21:46:35.893 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-05-14 21:46:36.433 [info] Fetched model metadata in 12856ms be8d15e5-95df-4e0e-8760-409aacddd8fe
+2025-05-14 22:18:47.400 [info] Logged in as Adame77
+2025-05-14 22:18:50.550 [info] Got Copilot token for Adame77
+2025-05-14 22:18:51.394 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-14 22:18:52.915 [info] Fetched model metadata in 2276ms de3be694-ecca-4e82-aac5-946f95aa70bc
+2025-05-14 22:51:25.906 [info] Logged in as Adame77
+2025-05-14 22:51:31.233 [info] Got Copilot token for Adame77
+2025-05-14 22:51:31.801 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-14 22:51:33.764 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-05-14 23:23:40.373 [info] Logged in as Adame77
+2025-05-14 23:23:44.429 [info] Got Copilot token for Adame77
+2025-05-14 23:23:45.251 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-14 23:23:46.343 [info] Fetched model metadata in 1847ms f6188c92-455e-45d1-8674-874db5412deb

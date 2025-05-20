@@ -1,0 +1,88 @@
+2025-05-13 02:10:19.953 [info] 
+
+
+
+
+2025-05-13 02:10:20.054 [info] Extension host agent started.
+2025-05-13 02:10:20.422 [info] Started initializing default profile extensions in extensions installation folder. file:///home/khanyu/.vscode-server/extensions
+2025-05-13 02:10:20.668 [info] ComputeTargetPlatform: linux-x64
+2025-05-13 02:10:20.744 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/khanyu/.vscode-server/extensions
+2025-05-13 02:10:24.741 [info] [127.0.0.1][7a32fad7][ManagementConnection] New connection established.
+2025-05-13 02:10:32.682 [error] resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2025-05-13 02:10:32.697 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2025-05-13 02:10:33.307 [info] [127.0.0.1][71800ffb][ExtensionHostConnection] New connection established.
+2025-05-13 02:10:33.350 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2025-05-13 02:10:33.410 [info] [127.0.0.1][71800ffb][ExtensionHostConnection] <1493> Launched Extension Host Process.
+2025-05-13 02:10:42.710 [info] ComputeTargetPlatform: linux-x64
+2025-05-13 02:10:43.681 [info] Getting Manifest... github.copilot-chat
+2025-05-13 02:10:43.718 [info] Getting Manifest... github.copilot
+2025-05-13 02:10:45.419 [info] Installing extension: github.copilot {"installPreReleaseVersion":false,"donotIncludePackAndDependencies":true,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/khanyu/.vscode-server/extensions/extensions.json","external":"file:///home/khanyu/.vscode-server/extensions/extensions.json","path":"/home/khanyu/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.100.0","date":"2025-05-07T12:48:53.763Z"}}
+2025-05-13 02:10:45.435 [info] Installing the extension without checking dependencies and pack github.copilot
+2025-05-13 02:10:45.704 [info] Installing extension: github.copilot-chat {"installPreReleaseVersion":false,"donotIncludePackAndDependencies":true,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/khanyu/.vscode-server/extensions/extensions.json","external":"file:///home/khanyu/.vscode-server/extensions/extensions.json","path":"/home/khanyu/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.100.0","date":"2025-05-07T12:48:53.763Z"}}
+2025-05-13 02:10:45.718 [info] Installing the extension without checking dependencies and pack github.copilot-chat
+2025-05-13 02:11:01.233 [info] Extension signature verification result for github.copilot-chat: Success. Internal Code: 0. Executed: true. Duration: 9768ms.
+2025-05-13 02:11:03.510 [info] Extracted extension to file:///home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0: github.copilot-chat
+2025-05-13 02:11:03.567 [info] Renamed to /home/khanyu/.vscode-server/extensions/github.copilot-chat-0.27.0
+2025-05-13 02:11:03.667 [info] Extension installed successfully: github.copilot-chat file:///home/khanyu/.vscode-server/extensions/extensions.json
+2025-05-13 02:11:04.698 [info] Extension signature verification result for github.copilot: Success. Internal Code: 0. Executed: true. Duration: 7951ms.
+2025-05-13 02:11:07.440 [info] Extracted extension to file:///home/khanyu/.vscode-server/extensions/github.copilot-1.317.0: github.copilot
+2025-05-13 02:11:07.471 [info] Renamed to /home/khanyu/.vscode-server/extensions/github.copilot-1.317.0
+2025-05-13 02:11:07.554 [info] Extension installed successfully: github.copilot file:///home/khanyu/.vscode-server/extensions/extensions.json
+2025-05-13 02:31:44.880 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2025-05-13 03:22:32.044 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2025-05-13 03:22:34.494 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2025-05-13 03:23:15.203 [warning] No ptyHost heartbeat after 6 seconds
+2025-05-13 03:24:03.900 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2025-05-13 03:31:21.728 [info] [127.0.0.1][71800ffb][ExtensionHostConnection] The client has reconnected.
+2025-05-13 03:31:51.274 [info] [127.0.0.1][71800ffb][ExtensionHostConnection] The client has reconnected.
+2025-05-13 03:39:42.080 [info] [127.0.0.1][7a32fad7][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-05-13 03:39:46.352 [warning] No ptyHost heartbeat after 6 seconds
+2025-05-14 14:06:00.026 [warning] No ptyHost heartbeat after 6 seconds
+2025-05-14 14:06:43.404 [info] [127.0.0.1][7a32fad7][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-05-14 14:06:43.425 [info] [127.0.0.1][7a32fad7][ManagementConnection] The client has reconnected.
+2025-05-14 14:06:49.800 [info] [127.0.0.1][71800ffb][ExtensionHostConnection] The client has reconnected.
+2025-05-14 19:16:48.639 [warning] No ptyHost heartbeat after 6 seconds
+2025-05-14 19:17:09.664 [info] [127.0.0.1][7a32fad7][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-05-14 19:17:10.382 [warning] No ptyHost heartbeat after 6 seconds
+2025-05-14 19:17:20.822 [warning] No ptyHost heartbeat after 6 seconds
+2025-05-14 19:17:50.288 [warning] No ptyHost heartbeat after 6 seconds
+2025-05-14 19:18:12.421 [warning] No ptyHost heartbeat after 6 seconds
+2025-05-14 19:19:23.453 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+2025-05-14 19:20:32.485 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+2025-05-14 19:20:34.761 [warning] No ptyHost heartbeat after 6 seconds
+2025-05-14 19:21:22.619 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+2025-05-14 19:21:22.621 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+2025-05-14 19:22:35.261 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+2025-05-14 19:22:40.757 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+2025-05-14 19:23:41.582 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+2025-05-14 19:24:00.298 [info] [127.0.0.1][7a32fad7][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-05-14 19:24:00.449 [info] [127.0.0.1][7a32fad7][ManagementConnection] The client has reconnected.
+2025-05-14 19:24:06.694 [info] [127.0.0.1][71800ffb][ExtensionHostConnection] The client has reconnected.
+2025-05-14 19:24:57.052 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+2025-05-14 20:19:00.951 [warning] No ptyHost heartbeat after 6 seconds
+2025-05-14 20:19:25.798 [warning] No ptyHost heartbeat after 6 seconds
+2025-05-14 20:21:36.667 [warning] No ptyHost heartbeat after 6 seconds
+2025-05-14 20:23:05.629 [warning] No ptyHost heartbeat after 6 seconds
+2025-05-14 20:23:45.515 [warning] No ptyHost heartbeat after 6 seconds
+2025-05-14 20:23:49.595 [info] [127.0.0.1][71800ffb][ExtensionHostConnection] The client has reconnected.
+2025-05-14 20:25:24.739 [warning] No ptyHost heartbeat after 6 seconds
+2025-05-14 20:28:43.814 [warning] No ptyHost heartbeat after 6 seconds
+2025-05-14 20:47:07.730 [warning] No ptyHost heartbeat after 6 seconds
+2025-05-14 21:00:18.205 [warning] No ptyHost heartbeat after 6 seconds
+2025-05-14 21:38:24.434 [warning] No ptyHost heartbeat after 6 seconds
+2025-05-14 22:09:06.089 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-05-14 22:31:19.169 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2025-05-14 22:31:21.608 [warning] No ptyHost heartbeat after 6 seconds
+2025-05-14 22:31:21.838 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2025-05-14 22:43:41.593 [error] ptyHost was unable to resolve shell environment Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2025-05-14 22:43:42.452 [error] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+2025-05-14 23:26:17.370 [info] [127.0.0.1][7a32fad7][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-05-14 23:26:20.718 [warning] No ptyHost heartbeat after 6 seconds
